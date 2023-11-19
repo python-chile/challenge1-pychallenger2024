@@ -14,13 +14,13 @@ Finalmente él quiere ubicarse en el centro de masa de sus animales.
 Ayuda a Patricio a confeccionar el mapa de su granja (en caso de que utilice bibliotecas externas debe agregarlas en requirements.txt)
 
 ## Parte 1: Clasificación de animales
-Implementa función get_determine_animal recibiendo como entrada el peso de un animal y como salida el nombre del animal (Primera letra en mayúscula)
+Implementa función get_determine_animal en utils.py recibiendo como entrada el peso de un animal y como salida el nombre del animal (Primera letra en mayúscula)
 
 ## Parte 2: Centro de masas
-Implementa función get_center_of_mass recibiendo como entrada una lista de tuplas de 3 elementos, donde el primer elemento es peso, el segundo es posición este y el tercer es posición norte. La salida debe ser una tupla de 2 elementos, don . Cada numero de la tupla debe ser redondeado a 2 decimales (en el caso de los .005 se aproxima al par más cercano)
+Implementa función get_center_of_mass en utils.py recibiendo como entrada una lista de tuplas de 3 elementos, donde el primer elemento es peso, el segundo es posición este y el tercer es posición norte. La salida debe ser una tupla de 2 elementos, don . Cada numero de la tupla debe ser redondeado a 2 decimales (en el caso de los .005 se aproxima al par más cercano)
 
 ## Parte 3: Desplegar mapa
-Implementa display_map para que despliege el mapa usando las imágenes de resources/ (íconos deben convertirse a formato RGBA para conservar colores). Los bordes del mapa son:
+Implementa display_map en utils.py para que despliege el mapa usando las imágenes de resources/ (íconos deben convertirse a formato RGBA para conservar colores). Los bordes del mapa son:
 |Borde|Magnitud[m]|Dirección|
 |-|-|-|
 |Izquierdo|275461.42|E|
@@ -29,3 +29,5 @@ Implementa display_map para que despliege el mapa usando las imágenes de resour
 |Superior|6314565.59|N|
 
 BONUS: Redimensiona cada animal de acuerdo a su peso
+Corre los tests con:
+python granja.py
