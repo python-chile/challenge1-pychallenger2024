@@ -28,6 +28,7 @@ Implementa display_map en utils.py para que despliege el mapa usando las imágen
 |Inferior|6312575.79|N|
 |Superior|6314565.59|N|
 
-BONUS: Redimensiona cada animal de acuerdo a su peso
+BONUS: Redimensiona cada animal de acuerdo a su peso.
+
 Corre los tests con:
 python granja.py
